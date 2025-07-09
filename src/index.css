@@ -1,0 +1,13 @@
+body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+/* Make sidebar collapsible for small screens */
+@media (max-width: 768px) {
+  .sidebar-hidden {
+    display: none;
+  }
+}
